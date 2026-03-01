@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #222;
+    line-height: 1.6;
+}
+/* main */
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* ----------------------------------------------------------- */
+/* header */
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.7rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+}
+/* ----------------------------------------------------------- */
+/* hero section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+    
+}
+
+.hero-text h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.hero-text h2 {
+    color: #0077ff;
+    margin-bottom: 15px;
+    font-size: 36px;
+}
+
+.hero-text p {
+    font-size: 23px;
+    margin-top: 10px;
+    line-height: 1.7;
+}
+.buttons {
+    margin-top: 40px;
+}
+
+.btn {
+    background: #0077ff;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 16px;
+    font-size: 20px;
+}
+
+.section {
+    padding: 40px 0;
+    /* padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid rgb(79, 79, 80);
+    margin-bottom: 25px;
+    border-radius: 5px; */
+}
+
+/* -------------------------------------------------------------- */
+/* about */
+#about h2{
+    font-size: 32px;
+}
+
+#about p{
+    font-size: 25px;
+}
+
+#about-main{
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+
+
+/* -------------------------------------------------------------- */
+/* skills  */
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.skill-grid div {
+    background: #eee;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+#skills h2{
+    font-size: 32px;
+}
+
+/* ----------------------------------------------------------- */
+/* project */
+.project-card {
+    background: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.project-card h3{
+    font-size: 27px;
+}
+
+.project-card p{
+    font-size: 25px;
+}
+
+#projects h2{
+    font-size: 32px;
+}
+
+.project-links a {
+    margin-right: 15px;
+    color: #0077ff;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------- */
+/* Certificates */
+#certificates h2{
+    font-size: 32px;
+}
+
+#certificates-title{
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#certificates-title h3{
+    font-size: 25px;
+}
+
+#certificates p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#certificates-title a {
+    font-size: 22px;
+    color: #0077ff;
+    text-decoration: none;
+}
+
+/* ----------------------------------------------------------- */
+/* Education */
+#education h2{
+    font-size: 32px;
+}
+
+#education p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#education-main{
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* ----------------------------------------------------------- */
+/* languages */
+#languages h2{
+    font-size: 32px;
+}
+
+#languages p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#languages-main{
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* ----------------------------------------------------------- */
+/* contact*/
+
+#contact h2{
+    font-size: 32px;
+}
+
+#contact a{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#contact-main{
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+/* footer {
+    text-align: center;
+    padding: 20px;
+    background: #fafafa;
+    border-top: 1px solid #eee;
+} */
