@@ -21,7 +21,7 @@ body {
 header {
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-    font-size: 1.7rem;
+    font-size: 1.5rem;
 }
 
 .nav {
@@ -47,23 +47,23 @@ nav a {
 }
 
 .hero-text h1 {
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
 .hero-text h2 {
     color: #0077ff;
     margin-bottom: 15px;
-    font-size: 36px;
+    font-size: 28px;
 }
 
 .hero-text p {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 10px;
     line-height: 1.7;
 }
 .buttons {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .btn {
@@ -73,7 +73,7 @@ nav a {
     text-decoration: none;
     margin-right: 10px;
     border-radius: 16px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .btn:hover{
@@ -87,11 +87,11 @@ nav a {
 /* -------------------------------------------------------------- */
 /* about */
 #about h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 #about p{
-    font-size: 25px;
+    font-size: 18px;
 }
 
 #about-main{
@@ -118,11 +118,11 @@ nav a {
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 #skills h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 /* ----------------------------------------------------------- */
@@ -132,26 +132,25 @@ nav a {
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
-    font-size: 20px;
 }
 
 .project-card h3{
-    font-size: 27px;
+    font-size: 22px;
 }
 
 .project-card p{
-    font-size: 25px;
+    font-size: 18px;
 }
 
 #projects h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 
 /* ----------------------------------------------------------- */
 /* Certificates */
 #certificates h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 #certificates-title{
@@ -162,16 +161,16 @@ nav a {
 }
 
 #certificates-title h3{
-    font-size: 25px;
+    font-size: 22px;
 }
 
 #certificates p{
-    font-size: 25px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
 #certificates-title a {
-    font-size: 22px;
+    font-size: 16px;
     color: #0077ff;
     text-decoration: none;
 }
@@ -179,11 +178,11 @@ nav a {
 /* ----------------------------------------------------------- */
 /* Education */
 #education h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 #education p{
-    font-size: 25px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -197,11 +196,11 @@ nav a {
 /* ----------------------------------------------------------- */
 /* languages */
 #languages h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 #languages p{
-    font-size: 25px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -216,11 +215,11 @@ nav a {
 /* contact*/
 
 #contact h2{
-    font-size: 32px;
+    font-size: 28px;
 }
 
 #contact a{
-    font-size: 25px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -229,4 +228,30 @@ nav a {
     padding: 20px;
     margin-top: 20px;
     border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        margin-left: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    .hero-text h1 { font-size: 26px; }
+    .hero-text h2 { font-size: 20px; }
+    .hero-text p  { font-size: 16px; }
+
+    #about h2, #skills h2, #projects h2,
+    #certificates h2, #education h2,
+    #languages h2, #contact h2 { font-size: 22px; }
 }
